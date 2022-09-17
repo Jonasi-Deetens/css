@@ -1,0 +1,140 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #798777;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #A2B29F;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #798777;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #A2B29F;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #798777;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-top-width: 4px;
+  border-color: #E9DAC1;
+  margin: 50px auto;
+  width: 40px;
+}
+
+p {
+  color: #798777;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.top-container {
+  background-color: #F8EDE3;
+  padding-top: 80px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: white;
+  margin: 50px auto;
+  padding: 25px 0;
+  width: 50%;
+}
+
+.bottom-container {
+  background-color: #F8EDE3;
+  padding: 25px 0;
+}
+
+.web {
+  text-decoration: underline;
+  bottom: 300px;
+  left: 100px;
+}
+
+.cloud1 {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+/* Parent container has to be relative, in order for this to be absolute to its parent;*/
+.cloud2 {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row {
+  clear: both;
+  margin: 60px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.skill-img1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-img2 {
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.btn {
+  display: inline-block;
+  background-image: linear-gradient(to bottom, #adadad, #798777);
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 50px auto 0 auto;
+}
+
+.btn:hover {
+  background: #727e85;
+  background-image: linear-gradient(to bottom, #727e85, #838485);
+  text-decoration: none;
+}
+
+.footer-link {
+  padding: 0 20px;
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75em;
+  padding-top: 20px;
+}
